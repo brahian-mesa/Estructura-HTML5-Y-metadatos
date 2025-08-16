@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de prueba</title>
+    <meta name="description" content="Esta meta está fuera de lugar">
+    <link rel="author" href="humans.txt">
+</head>
+
+<body>
+    <header>
+        <h1>Mi sitio</h1>
+        <nav aria-label="navegación">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#articulo">Artículo</a></li>
+                <li><a href="#contacto" target="_blank">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="inicio">
+        <section>
+            <h2>Presentación</h2>
+            <p>Este texto describe el propósito del sitio.</p>
+        </section>
+
+        <figure>
+            <img src="banner.jpg" width="600" alt="Banner principal del sitio">
+            <figcaption>Banner principal del sitio</figcaption>
+        </figure>
+
+        <a href="https://ejemplo.com" target="_blank">Visitar ejemplo</a>
+
+        <article id="articulo">
+            <h2>Artículo 1</h2>
+            <p>Contenido del artículo.</p>
+            <article>
+                <h3>Subartículo</h3>
+                <p>Texto adicional.</p>
+            </article>
+        </article>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre</label>
+                <input id="nombre" type="text" name="nombre">
+
+                <label for="correo">Correo</label>
+                <input id="correo" type="text" name="correo" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <table>
+            <tr>
+                <th>Col A</th>
+                <th>Col B</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+        </table>
+
+        <p>
+            <img src="logo.png" alt="Logo">
+            Texto con <a href="#contacto"><strong>enlace</strong></a> <a href="#inicio">anidado</a>
+        </p>
+    </main>
+
+    <footer>
+        <small>2025 Mi sitio &copy;</small>
+    </footer>
+
+    <script type="text/javascript">
+        console.log('hola');
+    </script>
+</body>
+
+</html>
